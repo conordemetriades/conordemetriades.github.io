@@ -5,9 +5,8 @@ h1{
 
 }
 pre{
-  width: 70%;
   background-color: black;
-  border-style: solid;
+  border-style: dotted;
   border-radius: 30px;
   text-align: center;
   text-transform:lowercase;
