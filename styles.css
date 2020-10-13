@@ -5,21 +5,47 @@ h1{
 
 }
 pre{
+  width: 70%;
+  background-color: black;
+  border-style: solid;
+  border-radius: 30px;
   text-align: center;
   text-transform:lowercase;
-  margin-left: 0px;
+  margin-left: 59px;
   margin-top:50px;
-  animation: color-change 1s infinite;
+  animation: inherit;
+
+
 
 }
 
+@keyframes wheelHueColor {
+    from, to { color: hsl(324, 70%, 45%); }
+    10%      { color: hsl(360, 65%, 45%); }
+    20%      { color: hsl( 36, 80%, 45%); }
+    30%      { color: hsl( 72, 75%, 35%); }
+    40%      { color: hsl(108, 65%, 35%); }
+    50%      { color: hsl(144, 75%, 35%); }
+    60%      { color: hsl(180, 75%, 35%); }
+    70%      { color: hsl(216, 60%, 45%); }
+    80%      { color: hsl(252, 65%, 50%); }
+    90%      { color: hsl(288, 60%, 40%); }
+}
 
-@keyframes color-change {
-  0% { color: red; }
-  50% { color: black; }
-  100% { color: orange; }
+@keyframes zoomEffect {
+    from {transform: scale(1, 1)}
+    to {transform: scale(1.4, 2)}
+
 }
 body{
-  background-image: url(https://community.gamepress.gg/uploads/default/original/3X/e/d/ed1798459048425a3f77680f5d5b6b4ea2150895.gif);
-  background-size: cover;
+  animation: wheelHueColor 10s infinite;
+  background-color: currentColor;
+  background-image: linear-gradient(45deg, white 10%, black 90%);
+  background-blend-mode: overlay;
+  width: auto;
+}
+
+img{
+  width:100%;
+
 }
