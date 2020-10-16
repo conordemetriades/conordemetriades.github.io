@@ -1,7 +1,7 @@
 
 body {
   font-family: monospace, monospace;
-  background-image: url('/home/conor/Desktop/NewSite/bg.png');
+  background-image: url('bg.png');
   background-size: stretch;
   color: white;
 }
