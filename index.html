@@ -1,30 +1,32 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <link rel = "stylesheet" href="styles.css">
-    <title>Welcome</title>
-  </head>
-  <body>
-    <nav>
-      <a href="www.yourmumgay.com">link.</a>
-      <a>link.</a>
-      <a>link.</a>
-      <a>link.</a>
-      <a style="float:right;">link</a>
-    </nav>
-      <header>
-        you could be this guy!
-      </header>
-      <main>
-        <h2>For only 9.99 a month you can look funny</h2>
+<head>
+  <link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
 
-      </main>
-      <p>This is a great example of how horrible a website could look</p>
-      <footer>
-Bananas right?
-      </footer>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
 
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
-      </div>
-  </body>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+
+</body>
 </html>
