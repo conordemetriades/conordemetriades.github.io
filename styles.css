@@ -1,35 +1,76 @@
-.column {
-  float: left;
-  width: 33%;
-  padding: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  background-color: orange;
-}
+nav{
+  font-style: italic;
+  background-color: #99173c;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 0px;
+  color: white;
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 body{
-  margin: 0px;
+  background-image: url(https://i.kym-cdn.com/photos/images/newsfeed/000/059/601/spiderman116_spideydancing1.gif) ;
+  background-size: cover;
+  width: 100%;
+  height:100%:
+}
+header{
+  color: #dce9be;
+  text-transform: uppercase;
+  font-size: 80px;
+  font-weight:bolder;
+width: 80%;
+}
+
+main{
+  color: white;
+
+  width: 80%;
+  letter-spacing: 2px;a
+
+
+}
+footer{
+  position: fixed;
+  bottom:0;
+  height:30px;
+  border-style: solid;
+  border-radius: 10%;
+  border-top-width: thick;
+  border-color: black;
   font-family: monospace;
+  font-stretch: ultra-expanded;
+  word-spacing: 50pt;
+  letter-spacing: 20pt;
+  text-align: center;
+  width: 50%;
+  left:25%;
+  color: yellow;
+  background-color: black;
+}
+h2{
+  font-weight: lighter;
+  background-color: #d95b43;
+
 
 }
 p{
-  font-size: 12pt;
+  color: black;
+  background-color:lime;
+  margin-left: 25%;
+  margin-top: 34%;
+  font-size: 32pt;
+  border-radius: 6%;
+  border-color: yellow;
+  border-style: solid;
+  border-width: thick;
 }
-
-h2{
-  font-size: 29pt;
+nav:hover{
+  transform: rotate(2deg);
 }
-
-img{
-  width: 75%;
-
-
-
-
+main:hover{
+  transform: rotate(3deg);
+}
+header:hover{
+   text-decoration: underline;
 }
