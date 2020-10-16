@@ -2,7 +2,7 @@
 body {
   font-family: monospace, monospace;
   background-image: url('https://raw.githubusercontent.com/conordemetriades/conordemetriades.github.io/master/bg.png');
-  background-size: stretch;
+  background-size: cover;
   color: white;
 }
 .overlay {
