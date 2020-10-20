@@ -18,5 +18,13 @@ text-align: center;
 }
 #boris{
   width: 100%;
-  margin-top: 95%;
+  margin-top: 30%;
+
+  transition: transform 3s;
+}
+
+#boris:hover {
+  transform: translateY(-60%);
+
+  transition: transform 3s;
 }
