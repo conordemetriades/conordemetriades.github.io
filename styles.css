@@ -1,26 +1,22 @@
+*{
+
+  margin: 0px;
+  padding: 0px;
+  overflow-y: hidden ;
+}
 
 body{
-  background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/farmer.png');
-  font-family: monospace;
-  font-size: 16px;
+
   width:100%;
-}
-.wargwarn{
-  text-align:center;
-  position: absolute ;
-  top:50%;
-  left:50%;
-  margin-right: -50%;
-  margin-bottom: -50%;
+  height:100%;
 }
 
-.wargwarn p{
-  color: red;
-}
 
-.wargwarn sub{
-  font-style: italic;
-  font-stretch: extra-expanded;
-  color: white;
-  background-color: black
+h1{
+text-align: center;
+
+}
+#boris{
+  width: 100%;
+  margin-top: 130%;
 }
