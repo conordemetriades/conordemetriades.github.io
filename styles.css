@@ -9,11 +9,22 @@ body{
 
   width:100%;
   height:100%;
+  background-color: black;
 
 }
 
 
 h1{
+margin: auto;
+width: 220px;
+color: black;
+background-color: orange;
+font-family: monospace;
+position:static;
+font-style: italic;
+font-size: 32px;
+border-style: groove;
+border-radius: 25%;
 text-align: center;
 
 }
@@ -27,6 +38,5 @@ text-align: center;
 
 #boris:hover {
   transform: translateY(-60%);
-
   transition: transform 3s;
 }
