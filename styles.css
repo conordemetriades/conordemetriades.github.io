@@ -1,42 +1,56 @@
 *{
-
-  margin: 0px;
-  padding: 0px;
-  overflow-y: hidden ;
+  margin:0;
+  padding:0;
 }
-
 body{
 
-  width:100%;
-  height:100%;
-  background-color: black;
+  background: linear-gradient(to right, #005c97, #363795);
 
 }
-
-
-h1{
-margin: auto;
-width: 220px;
-color: black;
-background-color: orange;
-font-family: monospace;
-position:static;
-font-style: italic;
-font-size: 32px;
-border-style: groove;
-border-radius: 25%;
-text-align: center;
+.pants h1{
+  color: white;
+  font-family: 'Marck Script';
+  text-decoration: underline;
+  font-size: 64pt;
+  width: 600px;
+}
+.pants p{
+  padding-top: 20px;
+  margin-left: 20px;
+  color: #AAA;
+  font-family: Roboto;
+  letter-spacing: 1px;
+  font-weight: bold;
 
 }
-#boris{
-  width:500px;
-  left: 25%;
-  right: 25%;
-  bottom: -180px;
+.gonow{
+  font-family: sans-serif;
+  margin-left: 50px;
+  margin-top: 50px;
+  background-color: #f00;
+  width: 140px;
+  text-align: center;
+  color: #ff5;
+  border-style: outset;
+  border-color: red;
+
+
+}
+.gonow img{
+  visibility: hidden;
   position: fixed;
+  height: 100%;
+  width:100%;
+  top: 0;
+  left: 0;
 }
-
-#boris:hover {
-  transform: translateY(-60%);
-  transition: transform 3s;
+.gonow:hover img{
+  visibility: visible;
+}
+.spookytrousers{
+  float:right;
+}
+.spookytrousers img{
+  width:250px;
+  height: 400px;
 }
