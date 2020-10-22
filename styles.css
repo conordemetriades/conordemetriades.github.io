@@ -21,6 +21,7 @@ body{
   border-radius:30px;
   border-width:thick;
   display: inline-block;
+  border-color: white;
 }
 
 .nav a:hover{
