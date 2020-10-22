@@ -1,0 +1,33 @@
+//*
+Gunmetal: 333745
+Cambridge Blue: 9DCBBA
+Cornflower Blue: 6F9CEB
+Spring Green: 04F06A
+Paradise Pink: FB2763
+*//
+
+.nav{
+  background-color: #333745;
+  overflow: hidden;
+}
+.nav a{
+  color: black;
+  background-color: #04F06A;
+  text-decoration: none;
+  padding: 14px 16px;
+  text-align: center;
+  font-size: 17px;
+
+}
+
+.nav a:hover{
+  color: white;
+  background-color: #FB2763;
+}
+.nav a:active{
+  background-color: #6F9CEB;
+}
+.greeting h1{
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
