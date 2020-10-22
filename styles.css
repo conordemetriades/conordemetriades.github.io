@@ -7,7 +7,7 @@ body{
   padding: 10px;
   border-radius: 25px;
   display: inline-block;
-  width: 95%;
+  width: 96%;
 
 }
 .nav a{
@@ -38,7 +38,15 @@ h1{
 p{
   font-family: Roboto;
   color: #333745;
-background-color: #949B96;
+  background-color: #aaaddf;
+
+  border-radius: 10px;
+  border-style: hidden;
+  border-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+
 }
 .greeting h1{
 
@@ -47,7 +55,6 @@ background-color: #949B96;
 }
 
 .greeting{
-
 }
 
 /*
