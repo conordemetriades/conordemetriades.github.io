@@ -19,8 +19,8 @@ body{
 }
 
 header{
-  margin:0px 0px 2px 0px; 
-  width:40px;
+  margin:0px 0px 2px 0px;
+  width:auto;
   border-top-left-radius: 0%;
   border-bottom-left-radius: 20%;
   border-top-right-radius:20%;
