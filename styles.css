@@ -1,16 +1,26 @@
 
+body{
+  background-color:#fff8f0;
+}
 .nav{
   background-color: #333745;
-  overflow: hidden;
+  padding: 10px;
+  border-radius: 25px;
+  display: inline-block;
+  width: 95%;
+
 }
 .nav a{
+  font-family: Kalam;
   color: black;
-  background-color: #04F06A;
+  background-color: #1d8a99;
   text-decoration: none;
-  padding: 14px 16px;
   text-align: center;
   font-size: 17px;
-
+  border-style: inset;
+  border-radius:30px;
+  border-width:thick;
+  display: inline-block;
 }
 
 .nav a:hover{
@@ -20,14 +30,33 @@
 .nav a:active{
   background-color: #6F9CEB;
 }
-.greeting h1{
-  font-family: sans-serif;
-  text-transform: capitalize;
+h1{
+  font-family: Balsamiq Sans;
+  color;
+
 }
-//*
+p{
+  font-family: Roboto;
+  color: #333745;
+background-color: #949B96;
+}
+.greeting h1{
+
+  text-transform: capitalize;
+  background-color: transparent;
+}
+
+.greeting{
+
+}
+
+/*
 Gunmetal: 333745
 Cambridge Blue: 9DCBBA
 Cornflower Blue: 6F9CEB
 Spring Green: 04F06A
 Paradise Pink: FB2763
-*//
+Floral White: fff8f0
+Old Rose: C98986
+Metallic Seaweed: 1d8a99
+*/
