@@ -9,11 +9,25 @@ body{
   background-color: white;
 }
 .nav{
+  box-shadow: 0px 5px 40px 1px #04030F;
   background-color: #04030F;
   padding: 10px;
-  border-radius: 25px;
-  display: inline-block;
-  width: 96%;
+  border-radius: 15px;
+  border-width: 5px;
+  display: flex;
+  width: fit-content;
+  border-style: none;
+  margin: auto;
+  position: absolute;
+       top: 50%;
+       left: 50%;
+       margin-right: -50%;
+       transform: translate(-50%, -50%) }
+
+
+
+
+
 
 }
 .triangle{
@@ -26,16 +40,17 @@ body{
 
 }
 .nav a{
-  font-family: Kalam;
+  display: block-inline;
+  margin: 2px;;
+  font-family: Balsamiq Sans;
+  padding: 4px;
   color: black;
   background-color: #ECE2D0;
   text-decoration: none;
-  text-align: center;
   font-size: 17px;
   border-style: outset;
   border-radius:30px;
   border-width: medium;
-  display: inline-block;
   border-color: #FFEEF2;
 }
 
@@ -68,7 +83,7 @@ h2{
 p{
   font-size: 13pt;
   font-family: Roboto;
-  color: #04030F;
+  color: #0B7189;
 }
 .greeting h1{
 
