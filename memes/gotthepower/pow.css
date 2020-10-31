@@ -1,0 +1,27 @@
+body{
+
+  background-color: black;
+
+}
+img{
+
+  width:100%;
+
+}
+
+h1{
+  background-color: white;
+  text-align: center;
+  animation-name: pow;
+  animation-duration: .001s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+
+}
+
+@keyframes pow {
+
+  to{transform: skewX(-20deg) scale(1.4); color:red; background-color: darkred; font-size: 17px; transform: translateY(900px);}
+
+}
