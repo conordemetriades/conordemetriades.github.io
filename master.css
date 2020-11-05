@@ -1,25 +1,27 @@
 :root{
-  --caribbean-green: #26c485ff;
-  --jet: #30323dff;
-  --carolina-blue: #00a2e1ff;
-  --cardinal: #c5283dff;
-  --cultured: #faf9f9ff;
+  --lightshades: #F4F4EE;
+  --lightaccent: #D1988F;
+  --maincolor: #C5283D;
+  --darkaccent:#948CA0;
+  --darkshades:#242C3D;
 }
 body{
   margin: 0px;
-  background-color: var(--jet);
+  background-color: var(--darkshades);
 }
 .hero-image {
   margin: auto;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("hero.jpg");
+  box-shadow: 1px 5px 5px 0px rgba(2, 1, 20, 0.3);
+  background-image: radial-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1)), url("hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 95%;
-  height:500px;
-  margin-top: 10px;
+  width: 100%;
+  height:800px;
+  margin-top: -100px;
   position: relative;
   border-radius: 10px;
+  z-index: -1;
 }
 
 .hero-text {
@@ -33,7 +35,7 @@ body{
 }
 
 .navbar{
-  background-color: var(--cardinal);
+  background-color: var(--maincolor);
   padding: 10px;
   text-align: center;
   box-shadow: 1px 5px 5px 0px rgba(2, 1, 20, 0.3);
@@ -65,13 +67,87 @@ body{
 
 button{
   font-family: Lobster;
-  background-color: var(--caribbean-green);
+  background-color: var(--maincolor);
   color: var(--jet);
   border-radius: 10px;
-  border-color: var(--caribbean-green);
+  border-color: var(--maincolor);
   padding: 3px 10px;
   font-size: 16pt;
 }
 button :active{
   border-style: none;
+}
+
+.accentcard{
+  border-style: solid;
+  border-color: var(--maincolor);
+  box-shadow: 5px 5px 5px 2px rgba(2, 1, 20, 0.4);
+  vertical-align: top;
+  display: inline-block;
+  color: var(--lightshades);
+  border-radius: 4px;
+  margin: 50px;
+  padding: 20px;
+  width: 300px;
+  height:300px;
+  background-color: var(--maincolor);
+  border-bottom-left-radius: 50%;
+
+}
+.accentcard h1{
+  font-family:Ubuntu;
+  font-size: 16pt;
+  letter-spacing: 1px;
+
+}
+.accentcard p{
+  font-family: Ubuntu;
+  font-size: 12pt;
+}
+
+.card{
+  box-shadow: 5px 5px 5px 2px rgba(2, 1, 20, 0.4);
+  vertical-align: top;
+  display: inline-block;
+  color: var(--darkshades);
+  border-radius: 4px;
+  margin: 50px;
+  padding: 20px;
+  width: 300px;
+  height:300px;
+  background-color: var(--lightshades);
+}
+.card h1{
+  font-family:'Lobster';
+  font-size: 16pt;
+  letter-spacing: 1px;
+
+}
+.card p{
+  font-family: Ubuntu;
+  font-size: 12pt;
+}
+
+
+.invcard{
+  box-shadow: 5px 5px 5px 2px rgba(2, 1, 20, 0.4);
+  vertical-align: top;
+  display: inline-block;
+  color: var(--darkshades);
+  border-radius: 4px;
+  margin: 50px;
+  padding: 20px;
+  width: 300px;
+  height:300px;
+  background-color: var(--lightaccent);
+}
+.invcard h1{
+  font-family:'Lobster';
+  font-size: 16pt;
+  letter-spacing: 1px;
+
+}
+.invcard p{
+  font-family: Ubuntu;
+  font-size: 12pt;
 }
