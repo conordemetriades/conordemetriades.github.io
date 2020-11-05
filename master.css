@@ -111,6 +111,7 @@ button :active{
   display: inline-block;
   color: var(--darkshades);
   border-radius: 4px;
+  border-top-right-radius: 30px; 
   margin: 50px;
   padding: 20px;
   width: 300px;
@@ -150,4 +151,13 @@ button :active{
 .invcard p{
   font-family: Ubuntu;
   font-size: 12pt;
+}
+.github button{
+  margin-top: 10px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--lightshades);
+  border-color: var(--darkshades);
+  color: var(--darkshades);
+  width: 200px;
 }
