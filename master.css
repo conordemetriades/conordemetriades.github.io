@@ -12,7 +12,7 @@ body{
 .hero-image {
   margin: auto;
   box-shadow: 1px 5px 5px 0px rgba(2, 1, 20, 0.3);
-  background-image: radial-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1)), url("hero.jpg");
+  background-image: radial-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1)), url("spider.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,14 +52,14 @@ body{
   color: white;
   margin: 10px;
   padding: 5px 7px;
-  border-radius: 10px;
+  border-radius: 15px;
   transition: margin 0.3s, border-radius 1s;
 }
 
 .navbar a:hover{
-  border-style: none;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
+  border-width: thick;
   border-bottom-color: var(--cultured);
   border-bottom-style: ridge;
   margin: 100px;
@@ -111,7 +111,7 @@ button :active{
   display: inline-block;
   color: var(--darkshades);
   border-radius: 4px;
-  border-top-right-radius: 30px; 
+  border-top-right-radius: 30px;
   margin: 50px;
   padding: 20px;
   width: 300px;
