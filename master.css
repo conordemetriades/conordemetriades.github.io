@@ -5,6 +5,16 @@
   --darkaccent:#948CA0;
   --darkshades:#242C3D;
 }
+
+/*alt color scheme
+:root{
+  --lightshade: #EEF1F3;
+  --lightaccent: #6E99B5;
+  --maincolor: #17bebb;
+  --darkaccent: #837189;
+  --darkshade: #1D2534;
+}
+*/
 body{
   margin: 0px;
   background-color: var(--darkshades);
