@@ -22,4 +22,5 @@ pre{
 body{
   background-image: url(https://community.gamepress.gg/uploads/default/original/3X/e/d/ed1798459048425a3f77680f5d5b6b4ea2150895.gif);
   background-size: cover;
+  background-position: center;
 }
