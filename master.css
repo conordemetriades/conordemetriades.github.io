@@ -1,9 +1,9 @@
 :root{
-  --lightshades: #F4F4EE;
-  --lightaccent: #D1988F;
-  --maincolor: #C5283D;
-  --darkaccent:#948CA0;
-  --darkshades:#242C3D;
+  --lightshade: #f1faee;
+  --lightaccent: #a8dadc;
+  --maincolor: #d81159;
+  --darkaccent:#457b9d;
+  --darkshade:#1d3557;
 }
 
 /*alt color scheme
@@ -17,64 +17,49 @@
 */
 body{
   margin: 0px;
-  background-color: var(--darkshades);
-}
-.hero-image {
-  margin: auto;
-  box-shadow: 1px 5px 5px 0px rgba(2, 1, 20, 0.3);
-  background-image: radial-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1)), url("spider.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height:800px;
-  margin-top: -100px;
-  position: relative;
-  border-radius: 10px;
-  z-index: -1;
+  background-color: var(--darkshade);
 }
 
-.hero-text {
-  font-family: "Press Start 2P";
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
 
 .navbar{
-  background-color: var(--maincolor);
-  padding: 10px;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--lightshade);
+  position: fixed;
+  padding: 5px;
   text-align: center;
-  box-shadow: 1px 5px 5px 0px rgba(2, 1, 20, 0.3);
-
+  box-shadow: 11px 7px 20px black;
   margin: auto;
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
+  z-index: 100;
 }
 
 .navbar a{
   text-decoration: none;
-  background-color: var(--jet);
-  font-family: Ubuntu;
-  color: white;
+  font-family: Lobster;
+  font-size: 16pt;
+  color: var(--darkaccent);
   margin: 10px;
-  padding: 5px 7px;
-  border-radius: 15px;
+  padding: 0px 10px;
+  border-radius: 0px;
   transition: margin 0.3s, border-radius 1s;
+  /* border-bottom-style: solid; */
+  border-bottom-width: thin;
 }
 
 .navbar a:hover{
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-width: thick;
-  border-bottom-color: var(--cultured);
-  border-bottom-style: ridge;
-  margin: 100px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-width: thin;
+  border-bottom-color: var(--lightaccent);
+  border-bottom-style: solid;
+  margin: 20px;
 }
-
+a{
+  color: var(--maincolor);
+}
 button{
   font-family: Lobster;
   background-color: var(--maincolor);
@@ -87,87 +72,69 @@ button{
 button :active{
   border-style: none;
 }
-
-.accentcard{
-  border-style: solid;
-  border-color: var(--maincolor);
-  box-shadow: 5px 5px 5px 2px rgba(2, 1, 20, 0.4);
-  vertical-align: top;
-  display: inline-block;
-  color: var(--lightshades);
-  border-radius: 4px;
-  margin: 50px;
-  padding: 20px;
-  width: 300px;
-  height:300px;
-  background-color: var(--maincolor);
-  border-bottom-left-radius: 50%;
-
+.about{
+  position: static;
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 40% 60%;
 }
-.accentcard h1{
-  font-family:Ubuntu;
-  font-size: 16pt;
-  letter-spacing: 1px;
-
+.about .image{
+  background-image: url(profilepic.jpg);
+  background-position: center;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  grid-column: 1;
 }
-.accentcard p{
-  font-family: Ubuntu;
-  font-size: 12pt;
+.text{
+  grid-column: 2;
+  padding: 50px;
+  text-align: center;
+  font-family: Oxygen;
+  color: var(--lightaccent);
 }
-
-.card{
-  box-shadow: 5px 5px 5px 2px rgba(2, 1, 20, 0.4);
-  vertical-align: top;
-  display: inline-block;
-  color: var(--darkshades);
-  border-radius: 4px;
+.text h1{
+  font-family: Oxygen;
+  font-size: 32pt;
+  color: var(--lightshade);
+}
+ .text h2{
+   color: var(--darkaccent);
+   font-family: Lobster;
+ }
+.work{
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  background-color: var(--darkaccent);
+}
+.work h1{
+  position: relative;
+  top:20px;
+  font-family: 'Lobster';
+  color: var(--darkshade);
+  background-color: var(--lightshade);
+  width: fit-content;
   border-top-right-radius: 30px;
-  margin: 50px;
-  padding: 20px;
-  width: 300px;
-  height:300px;
-  background-color: var(--lightshades);
-}
-.card h1{
-  font-family:'Lobster';
-  font-size: 16pt;
-  letter-spacing: 1px;
+  border-bottom-right-radius: 30px;
 
+  padding: 5px;
 }
-.card p{
-  font-family: Ubuntu;
-  font-size: 12pt;
+.card{
+  position: relative;
+  top: 60px;
+  background-color: var(--darkshade);
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  font-family: Oxygen;
 }
-
-
-.invcard{
-  box-shadow: 5px 5px 5px 2px rgba(2, 1, 20, 0.4);
-  vertical-align: top;
-  display: inline-block;
-  color: var(--darkshades);
-  border-radius: 4px;
-  margin: 50px;
-  padding: 20px;
-  width: 300px;
-  height:300px;
-  background-color: var(--lightaccent);
+.card{
+  border-radius: 50%;
+  border-style: solid;
 }
-.invcard h1{
-  font-family:'Lobster';
-  font-size: 16pt;
-  letter-spacing: 1px;
-
-}
-.invcard p{
-  font-family: Ubuntu;
-  font-size: 12pt;
-}
-.github button{
-  margin-top: 10px;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  background-color: var(--lightshades);
-  border-color: var(--darkshades);
-  color: var(--darkshades);
+.card img{
   width: 200px;
+  height: 200px;
+
 }
