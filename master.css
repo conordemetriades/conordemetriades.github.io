@@ -1,0 +1,142 @@
+:root{
+    --light: #DBCDC6;
+    --lightacc: #DD99BB;
+    --main: #7B506F;
+--darkacc: #011627;
+--dark: #1f1a38ff;
+}
+body{
+  margin: 0px;
+    background-color: var(--light);
+
+}
+.line{
+  height: 3px;
+  background-color: var(--main);
+}
+navbar{
+    font-family: "Roboto";
+  background-color: var(--dark);
+  display:flex;
+  overflow: hidden;
+  box-shadow: 0px 3px 10px var(--dark);
+}
+navbar a{
+  margin: 6px 10px;
+  padding: 4px 16px;
+  text-decoration: none;
+  color: var(--light);
+  border-radius: 5px 5px 8px 12px;
+  border-style: hidden;
+  transition: text-shadow 0.2s;
+
+}
+navbar a:hover{
+    text-shadow: 0px 2px 10px var(--lightacc);
+}
+navbar a:active{
+  box-shadow: inset 3px 2px 5px var(--dark);
+  color: var(--light);
+  box-shadow: 0px 0px 12px var(--light);
+    transform: translateY(-6px);
+}
+
+.container1{
+    position: relative;
+    top: -21px;
+    margin: 0px;
+    background-color: var(--light);
+    width: 100%;
+    height: 500px;
+    
+}
+#text {
+    font-family: roboto;
+    color: var(--lightacc);
+    width: 200px;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+}
+#text h1{
+    
+}
+#text p{
+    font-size: 16pt;
+    color: var(--darkacc);
+    opacity: 0.6;
+    text-align: left;
+    font-family: Lato;
+    
+}
+#text hr{
+    border-color:var(--darkacc);
+}
+
+.container2{
+    background-color: var(--dark);
+    padding: 10px;
+    transform: skewY(-4deg);
+    
+    
+}
+#img img{
+    position: absolute;
+    height: 400px;
+    top: 30px;
+    right: 30px;
+    
+}
+button{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding: 2px 20px;
+    width: fit-content;
+    background-color: var(--main);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--dark);
+    color: var(--dark);
+}
+button:hover{
+    background-color: var(--lightacc);
+}
+
+.container2 blockquote{
+    text-align: center;
+    position: relative;
+    font-size: 32pt;
+    font-family: roboto;
+    color: var(--light);
+    z-index: 1;
+    transform: skewY(4deg);
+}
+
+.container3{
+    color: var(--lightacc);
+    top: -50px;
+    padding: 60px;
+    position: relative;
+    background-color: var(--darkacc);
+    z-index: -100;
+}
+.container3 h1{
+    text-align: justify;
+    padding: 20px;
+    font-family: roboto;
+    font-size: 24pt;
+}
+.container3 p{
+    font-family: Lato;
+}
+.container4{
+    background-color: var(--light);
+    height: 100px;
+    padding: 0px 200px;
+}
+.container ol{
+    
+}
