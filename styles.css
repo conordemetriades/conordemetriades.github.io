@@ -66,6 +66,7 @@ body{
 .diamond-shape:hover{
   box-shadow: 2px 2px 12px black;
   border-radius: 0px;
+  background-color:cornflowerblue;
 }
 
 .about:hover{
