@@ -8,12 +8,11 @@ body{
   left: 50%;
   transform: translatex(-50%);
   width: fit-content;
-  background-color:;
   
 }
 .menu{
   font-family: mono;
-  grid-gap: 1px;
+  grid-gap: 6px;
   background-color: ;
   padding: 1px;
   transform: rotate(45deg);
@@ -23,12 +22,12 @@ body{
   border-radius: 5px;
 }
 .diamond-shape {
-  background: #000;
+  background: black;
   height: 120px;
   width:120px;
   text-align: center;
   transition: all .3s;
-  border-style: groove;
+  border-style: solid;
   color: white;
 }
 .diamond-shape p{
@@ -70,22 +69,18 @@ body{
 }
 
 .about:hover{
-  background-color: #ea3;
   margin: -10px -10px;
 }
 
 .work:hover{
-  background-color: #33e;
   margin: 10px -10px;
 }
 
 .pages:hover{
-  background-color: #3ae;
   margin: 10px 10px;
 }
 
 .contact:hover{
-  background-color: #3e3;
   margin: -10px 10px;
 }
 
