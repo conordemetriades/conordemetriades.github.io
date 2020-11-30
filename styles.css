@@ -1,0 +1,98 @@
+body{
+  background-color: black;
+    overflow: hidden;
+}
+.menucontainer{
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translatex(-50%);
+  width: fit-content;
+  background-color:;
+  
+}
+.menu{
+  font-family: mono;
+  grid-gap: 1px;
+  background-color: ;
+  padding: 1px;
+  transform: rotate(45deg);
+  display: grid;
+  grid-template-columns: 120px 120px;
+  grid-template-rows: 120px 120px;
+  border-radius: 5px;
+}
+.diamond-shape {
+  background: #fff;
+  height: 120px;
+  width:120px;
+  text-align: center;
+  transition: all .3s;
+  
+	
+}
+.diamond-shape p{
+  position: relative;
+  top:25px;
+}
+
+.about{
+  grid-row:1;
+  grid-column:1;
+  border-radius: 30px 0px 10px 0px;
+  
+}
+.contact{
+  border-radius: 0px 30px 0px 10px;
+}
+.pages{
+  border-radius: 10px 0px 30px 0px;
+}
+.work{
+  border-radius: 0px 10px 10px 30px;
+}
+.diamond-shape:hover{
+  box-shadow: 2px 2px 12px black;
+  border-radius: 0px;
+}
+
+.about:hover{
+  background-color: #ea3;
+  margin: -10px -10px;
+}
+
+.work:hover{
+  background-color: #33e;
+  margin: 10px -10px;
+}
+
+.pages:hover{
+  background-color: #3ae;
+  margin: 10px 10px;
+}
+
+.contact:hover{
+  background-color: #3e3;
+  margin: -10px 10px;
+}
+
+footer{
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.update{
+    background-color: darkviolet;
+     color: white;
+    font-family: monospace;
+}   
+
+.card{
+    width: 200px;
+    height: 180px;
+    padding: 10px;
+}
+
