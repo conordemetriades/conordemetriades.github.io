@@ -105,3 +105,13 @@ footer{
     padding: 10px;
 }
 
+a button{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100px;
+    padding:10px;
+    color: black;
+    font-family: monospace;
+    border-color: blue;
+}
