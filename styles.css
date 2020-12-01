@@ -3,7 +3,7 @@ body{
     color: white;
 }
 
-h1{
+main h1{
     font-family: mono;
     font-size: 10pt;
     position: absolute;
@@ -14,6 +14,17 @@ h1{
     padding: 10px;
     backdrop-filter: blur(12px) saturate(100);
     
+}
+footer{
+    top: 65%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+footer a{
+   color: white;
 }
 #space, .stars {
   overflow: hidden;
