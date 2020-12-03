@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    color: white;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.name h1 {
+    text-align: center;
+    font-family: "Major Mono Display";
+    font-size: 3vw;
+    color: #ffffff;
+    text-decoration: underline thin;
+
+}
+
+.name h2 {
+    text-align: center;
+    font-family: "East Sea Dokdo";
+    font-size: 3vw;
+}
+
+nav {
+
+    font-family: "Major Mono Display";
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 16pt;
+}
+
+
+.home {
+    position: fixed;
+    top: 15vh;
+    left: 3vw;
+}
+
+.about {
+    position: fixed;
+    bottom: 15vh;
+    left: 3vw;
+}
+
+.work {
+    position: fixed;
+    top: 15vh;
+    right: 3vw;
+}
+
+.contact {
+    position: fixed;
+    bottom: 15vh;
+    right: 3vw; //
+}
+
+nav a {
+    color: white;
+    transition: transform 0.3s;
+}
+
+nav a:hover {
+    transform: scale(1.2);
+    color: cyan;
+    border-bottom-style: ridge;
+    border-bottom-width: thin;
+    border-bottom-color: white;
+}
+
+main {
+    position: relative;
+    overflow: hidden;
+    font-family: "Roboto Slab";
+
+    margin: auto;
+    width: 75%;
+    height: 75%;
+    border-style: solid;
+    border-width: thin;
+    padding: 1vw;
+}
+
+main h1 {}
+
+#Home img {
+    display: block;
+    position: relative;
+    padding: 10px;
+    height: 60vh;
+    filter: saturate(6);
+    right: -50vw;
+}
