@@ -1,10 +1,11 @@
-:root{
+:root {
     --dark: #08415C;
     --main: #3BDB8D;
     --acc1: #C167B0;
     --acc2: #F8DFB4;
-    --light: #EADEDA;
+    --light: #fff;
 }
+
 body {
     margin: 0px;
     padding: 0px;
@@ -125,4 +126,46 @@ header {
     border-width: 1px;
     background-color: var(--main);
     color: var(--light);
+}
+
+#work{
+    background-color: var(--dark);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 5em);
+    text-align: center;
+    color: var(--light);
+    font-family: Open Sans;
+    grid-gap: 1vw;
+}
+.title{
+    text-align: center;
+    grid-column: 1/13;
+    grid-row: 1/3;
+
+    background-color: var(--dark);
+    color: var(--);
+    padding: 0px 20px;
+    font-family: Pacifico;
+    font-size: 6vh;
+    
+}
+.project{
+    background-color: var(--main);
+    grid-row: 3/6;
+    grid-column: 4/6;
+    border-radius: 6vw 0px 0px 0px;
+}
+.bruh{
+    background-color: var(--acc2);
+    grid-row: 3/6;
+    color: var(--acc1);
+    grid-column: 6/8;
+    
+}
+.pages{
+    border-radius: 0px 6vw 0px 0px;
+    grid-row:3/6;
+    grid-column: 8/10;
+    background-color: var(--acc1);
 }
