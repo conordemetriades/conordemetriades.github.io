@@ -187,15 +187,22 @@ header {
 }
 
 #about {
+    height: 80vh;
     display: grid;
     grid-auto-columns: 25% 25% 25%;;
     font-family: Open Sans;
     background-color: var(--acc1);
-    padding: 30px;
+    padding: 3vh;
     font-size: 3vh;
     text-align: left;
     color: var(--light);
 }
+#about h1{
+    grid-column :2/4;
+}
 #about p{
+    grid-column: 2/4;
+    font-size: 24pt;
+}
     
 }
