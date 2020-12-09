@@ -7,16 +7,16 @@
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: 
+        ;
 }
 
 nav {
 
-    top: 4vh;
+    top: 4%;
     position: absolute;
-    ;
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
@@ -26,8 +26,9 @@ nav {
     color: var(--light);
     box-shadow: 0px 2px 12px var(--dark);
     text-align: center;
-    font-size: 14pt;
+    font-size: 2vw;
     border-radius: 30px;
+    padding:0px 10px
 
 
 }
@@ -54,22 +55,18 @@ nav a:hover {
 }
 
 .navname h1 {
-    font-size: 20px;
+    font-size: 1.7vw;
 }
 
-.navname h2 {
-    font-size: 15px;
-    color: var(--acc1);
-}
 
 header {
+    width: 100%;
     height: 100vh;
     background-image: url(header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -10;
     background-position: center;
-    box-shadow: 0px 0px 20px var(--dark);
 }
 
 .hero {
@@ -86,7 +83,7 @@ header {
 
     left: 50%;
     transform: translateX(-50%);
-    top: 30vh;
+    top: 30%;
     color: var(--main);
 
 }
@@ -133,9 +130,9 @@ header {
 
 #work {
     background-color: var(--dark);
-    display: grid;
+    display: inline-grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(6, 5em);
+    grid-template-rows: repeat(12, auto);
     text-align: center;
     color: var(--light);
     font-family: Open Sans;
@@ -145,64 +142,66 @@ header {
 .title {
     text-align: center;
     grid-column: 1/13;
-    grid-row: 1/3;
+    grid-row: 1;
 
     background-color: var(--dark);
     color: var(--);
-    padding: 0px 20px;
     font-family: Pacifico;
-    font-size: 6vh;
+    font-size: 6vw;
 
 }
 
 .project {
     background-color: var(--main);
-    grid-row: 3/6;
-    grid-column: 4/6;
+    grid-row: 3;
+    grid-column: 2/5;
     border-radius: 6vw 0px 0px 0px;
+    font-size: 2vw;
 }
 
 .bruh {
     background-color: var(--acc2);
-    grid-row: 3/6;
+    grid-row: 3;
     color: var(--acc1);
-    grid-column: 6/8;
-
+    grid-column: 5/9;
+    font-size: 2vw;
+    
 }
 
 .pages {
     border-radius: 0px 6vw 0px 0px;
-    grid-row: 3/6;
-    grid-column: 8/10;
+    grid-row: 3;
+    grid-column: 9/12;
     background-color: var(--acc1);
+    font-size: 2vw;
 }
 
 #contact {
     text-align: center;
     padding: 20px;
-    font-size: 3vh;
+    font-size: 3vw;
     font-family: Open Sans;
     background-color: var(--light);
     color: var(--dark);
 }
 
 #about {
-    height: 80vh;
+    
     display: grid;
-    grid-auto-columns: 25% 25% 25%;;
+    grid-auto-columns: 25% 25% 25%;
+    grid-template-rows: auto auto;
     font-family: Open Sans;
     background-color: var(--acc1);
-    padding: 3vh;
-    font-size: 3vh;
+    padding: 3vw;
+    font-size: 2vw;
     text-align: left;
     color: var(--light);
 }
 #about h1{
     grid-column :2/4;
+    grid-row: 1;
 }
 #about p{
-    grid-column: 2/4;
-    font-size: 24pt;
-}
-    
+    grid-row:2;
+    grid-column: 2/4;;
 }
