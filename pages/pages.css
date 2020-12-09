@@ -1,0 +1,36 @@
+:root {
+    scroll-behavior: smooth;
+    --dark: #08415C;
+    --main: #3BDB8D;
+    --acc1: #C167B0;
+    --acc2: #F8DFB4;
+    --light: #fff;
+}
+body{
+    background-color: var(--main);
+    background-image:linear-gradient(to right, var(--main), var(--dark));
+}
+h1{
+    color: var(--dark);
+    font-family: Pacifico;
+    font-size: 6vh;
+    text-align: center;
+}
+main{
+    text-align: center;
+    display: grid;
+    
+}
+footer{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3vh;
+}
+
+a{
+    font-size: 3vh;
+    font-family: Open Sans;
+   color: var(--light);
+    
+}

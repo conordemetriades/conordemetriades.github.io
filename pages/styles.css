@@ -1,0 +1,26 @@
+h1{
+  color: red;
+  text-align: center;
+  text-shadow: rgb(0, 255, 0) 200%;
+
+}
+pre{
+  text-align: center;
+  text-transform:lowercase;
+  margin-left: 0px;
+  margin-top:50px;
+  animation: color-change 1s infinite;
+
+}
+
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: black; }
+  100% { color: orange; }
+}
+body{
+  background-image: url(https://community.gamepress.gg/uploads/default/original/3X/e/d/ed1798459048425a3f77680f5d5b6b4ea2150895.gif);
+  background-size: cover;
+  background-position: center;
+}
