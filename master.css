@@ -89,7 +89,6 @@ header {
     border-radius: 23px;
     padding: 10px;
     position: relative;
-    top: -3vh;
     font-size: 5vw;
 
 }
@@ -234,10 +233,10 @@ header {
     }
     div.hero h1{
       padding: 0px;
-      position: relative;
-      top: -10vh;
       text-align: center;
       font-size: 32pt;
+      position: relative;
+      top: -20px;
     }
 
     #work{
