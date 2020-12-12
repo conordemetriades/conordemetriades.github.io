@@ -126,7 +126,7 @@ header {
     background-color: var(--dark);
     background-image: linear-gradient(to left, var(--dark), var(--acc1));
     display: inline-grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(11, 1fr);
     grid-template-rows: repeat(12, auto);
     text-align: center;
     color: var(--light);
@@ -136,7 +136,7 @@ header {
 
 .title {
     text-align: center;
-    grid-column: 1/13;
+    grid-column: 1/14;
     grid-row: 1;
     color: var(--light);
     font-family: Pacifico;
@@ -147,8 +147,8 @@ header {
 .project {
     background-color: var(--main);
     grid-row: 3;
-    grid-column: 2/5;
-    border-radius: 6vw 0px 0px 0px;
+    grid-column: 8/11;
+    border-radius: 0px 6vw 0px 0px;
     font-size: 2vw;
     padding: 10px;
 }
@@ -157,20 +157,23 @@ header {
     background-color: var(--acc2);
     grid-row: 3;
     color: var(--acc1);
-    grid-column: 5/9;
+    grid-column: 2/5;
     font-size: 2vw;
     padding: 10px;
+    border-radius: 6vw 0px 0px 0px;
 }
 
 .pages {
-    border-radius: 0px 6vw 0px 0px;
+    border-radius: 0px 0vw 0px 0px;
     grid-row: 3;
-    grid-column: 9/12;
+    grid-column: 5/8;
     background-color: var(--acc1);
     font-size: 2vw;
     padding: 10px;
 }
-
+.project a{
+  text-decoration: line-through;
+}
 #contact {
     text-align: center;
     padding: 20px;
