@@ -11,7 +11,7 @@ body{
     background-image:linear-gradient(to right, var(--main), var(--dark));
 }
 h1{
-    color: var(--dark);
+    color: var(--acc2);
     font-family: Pacifico;
     font-size: 6vh;
     text-align: center;
@@ -19,7 +19,7 @@ h1{
 main{
     text-align: center;
     display: grid;
-    
+
 }
 footer{
     position: absolute;
@@ -32,5 +32,12 @@ a{
     font-size: 3vh;
     font-family: Open Sans;
    color: var(--light);
-    
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile */
+    body{
+      background-color: orange;
+    }
 }
